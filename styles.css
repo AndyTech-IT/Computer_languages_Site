@@ -1,0 +1,61 @@
+* {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+body {
+    min-width: 1400px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    min-width: 1400px;
+    background: rgb(198 205 232);
+    height: 5em;
+}
+
+header * {
+    display: inline-block;
+}
+
+.logo {
+    height: 3em;
+    border-radius: .5em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+nav {
+    right: 0;
+    position: absolute;
+}
+
+nav * {
+    background: white;
+    padding: .8em;
+    margin: 1em;
+    border: outset 1px;
+    text-decoration: none;
+    color: hsl(227deg 57% 42%);
+}
+
+.content > *{
+    padding-top: 5em;
+}
+
+.h_image {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
